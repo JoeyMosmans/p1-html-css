@@ -1,77 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<required>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <required>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <form action="action_page.php"></form>
-    <label for="fname">First Name</label><br>
-    <input type="text" id="fname" name="fname" Value=""> <br>
-    <label for="lname">Last name</label><br>
-    <input type="text" id="lname" name="lname" Value=""> <br>
-<form>
-        <input type="radio" checked id="Male" name="Gender" value="Male">
-        <label for="Male">Male</label><br>
-        <input type="radio" id="Female" name="Gender" value="Female">
-        <label for="Female">Female</label><br>
-        <input type="radio" id="Prefer not to say" name="Gender" value="Prefer not to say">
-        <label for="Prefer not to say">Prefer not to say</label> required
-      </form>
+    <label for="fname">First Name</label><br />
+    <input type="text" id="fname" name="fname" value="" /> <br />
+    <label for="lname">Last name</label><br />
+    <input type="text" id="lname" name="lname" value="" /> <br />
+    <form>
+      <input type="radio" checked id="Male" name="Gender" value="Male" />
+      <label for="Male">Male</label><br />
+      <input type="radio" id="Female" name="Gender" value="Female" />
+      <label for="Female">Female</label><br />
+      <input
+        type="radio"
+        id="Prefer not to say"
+        name="Gender"
+        value="Prefer not to say"
+      />
+      <label for="Prefer not to say">Prefer not to say</label>
+    </form>
 
-<form>
-    <label for="S&H">Streetname and housenumber</label><br>
-    <input type=text id="S&H" name="S&H" required>
-</form>
-<form>
-    <label for="pcode">Postal Code</label><br>
-    <input type=" text" id="pcode" name="pcode" required>
-</form>
-<form>
-    <label for="city">City</label><br>
-    <input type="text" id="city" name="city" required>
-</form>
-<form>
-    <label for="country">Country</label><br>
-    <input type="text" id="country" name="country" required>
-</form>
-<form>
-    <label for="BSN">BSN Number</label><br>
-    <input type="text" minlength="1" maxlength="9" id="BSN" name="BSN" Value="" required>
-</form>
-<form>
-    Vacation Destination <br>
-    <input type="radio" id="choice1" name="choice1" Value="Germany">
-    <label for="choice1"> Germany</label><br>
-    <input type="radio" id="choice2" name="choice2" Value="France">
-    <label for="choice2"> France</label><br>
-    <input type="radio" id="choice3" name="choice3" Value="Italy">
-    <label for="choice3"> Italy</label><br>
-    <input type="radio" id="choice4" name="choice4" Value="Spain">
-    <label for="choice4"> Spain</label><br>
-</form>
-<form>
-    <label for="Departure"> Date of departure </label><br>
-    <input type="text" id="Departure" name="Departure" required>
-</form>
-<form>
-    <label for="return"> Date of return</label><br>
-    <input type="text" id="return" name="return" required>
-</form>
-<form>
-    <label for="passengers"> Amount of travellers</label><br>
-    <input type=text id="passengers" name="passengers" min="1" max="4" required>
-</form>
-<form>
-    <label for="book"> Book now!</label><br>
-    <input type="submit" id="book" name="book" required>
-</form>
-<form>
-    <label for="email"> E-Mail</label><br>
-    <input type="text" id="email" name="email" required>
-</form>
-<form>
-    <label for="pass"> Password</label><br>
-    <input type="password" id="pass" name="pass" required>
-</form>
-</required>
+    <form>
+      <label for="S&H">Streetname and housenumber</label><br />
+      <input type="text" id="S&H" name="S&H" required />
+    </form>
+    <form>
+      <label for="pcode">Postal Code</label><br />
+      <input type=" text" id="pcode" name="pcode" required />
+    </form>
+    <form>
+      <label for="city">City</label><br />
+      <input type="text" id="city" name="city" required />
+    </form>
+    <form>
+      <label for="country">Country</label><br />
+      <input type="text" id="country" name="country" required />
+    </form>
+    <form>
+      <label for="BSN">BSN Number</label><br />
+      <input
+        type="text"
+        minlength="1"
+        maxlength="9"
+        id="BSN"
+        name="BSN"
+        value=""
+        required
+      />
+    </form>
+    <form>
+      Vacation Destination <br />
+      <input type="radio" id="choice1" name="choice1" value="Germany" />
+      <label for="choice1"> Germany</label><br />
+      <input type="radio" id="choice2" name="choice2" value="France" />
+      <label for="choice2"> France</label><br />
+      <input type="radio" id="choice3" name="choice3" value="Italy" />
+      <label for="choice3"> Italy</label><br />
+      <input type="radio" id="choice4" name="choice4" value="Spain" />
+      <label for="choice4"> Spain</label><br />
+    </form>
+    <form>
+      <label for="Departure"> Date of departure </label><br />
+      <input type="text" id="Departure" name="Departure" required />
+    </form>
+    <form>
+      <label for="return"> Date of return</label><br />
+      <input type="text" id="return" name="return" required />
+    </form>
+    <form>
+      <label for="passengers"> Amount of travellers</label><br />
+      <input
+        type="text"
+        id="passengers"
+        name="passengers"
+        min="1"
+        max="4"
+        required
+      />
+    </form>
+    <form>
+      <label for="book"> Book now!</label><br />
+      <input type="submit" id="book" name="book" required />
+    </form>
+    <form>
+      <label for="email"> E-Mail</label><br />
+      <input type="text" id="email" name="email" required />
+    </form>
+    <form>
+      <label for="pass"> Password</label><br />
+      <input type="password" id="pass" name="pass" required />
+    </form>
+  </required>
+</html>
